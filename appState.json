@@ -1,0 +1,110 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ab79b991-7594-43ae-ab15-da9689752347": {
+        "id": "ab79b991-7594-43ae-ab15-da9689752347",
+        "parent": null,
+        "name": "sydnyyInduuuuuuu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0d8303a7-5f8a-43ba-98d8-9a39acb2848c"
+        ],
+        "isRemovable": false,
+        "filePath": "sydnyyInduuuuuuu"
+      },
+      "0d8303a7-5f8a-43ba-98d8-9a39acb2848c": {
+        "id": "0d8303a7-5f8a-43ba-98d8-9a39acb2848c",
+        "parent": "ab79b991-7594-43ae-ab15-da9689752347",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sydnyyInduuuuuuu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast2Sydneyteststgingget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "ab79b991-7594-43ae-ab15-da9689752347",
+    "openFiles": [
+      "0d8303a7-5f8a-43ba-98d8-9a39acb2848c"
+    ],
+    "currentFileId": "0d8303a7-5f8a-43ba-98d8-9a39acb2848c",
+    "resources": {
+      "apigapSoutheast2Sydneyteststgingget": {
+        "name": "apigapSoutheast2Sydneyteststgingget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-2",
+          "apiMode": 1,
+          "apiName": "Sydney",
+          "apiId": "8u26cz14md",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "a9e5snxrfa",
+          "existingResources": {
+            "/test/stging": "5fnyd1",
+            "/": "a9e5snxrfa",
+            "/test/stging/ind": "qt81r5",
+            "/test": "unimi6"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging",
+          "resourceName": "test/stging",
+          "resourceId": "5fnyd1",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "onian1",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sydnyyInduuuuuuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581498557021
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sydnyyInduuuuuuu",
+      "url": "https://github.com/Indunil1992/sydnyyInduuuuuuu"
+    }
+  }
+}
